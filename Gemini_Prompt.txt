@@ -1,0 +1,61 @@
+Prompt:
+Act as an educational data analyst.
+Analyze the given School Annual Report and extract the most important points.
+Include academic performance, achievements, events, infrastructure developments, student activities, and future plans.
+Present the output in clear bullet points.
+
+Result:
+As an educational data analyst, I have reviewed the School Annual Report for Kasauli International Public School.
+The report highlights a year of significant growth, 100% board results, and an expansion of both physical and digital infrastructure.
+
+Below are the key takeaways categorized by functional area:
+
+1. Academic Performance
+Board Results: Both Class 10th and Class 12th achieved a 100% pass rate.
+Class 12th Highlights: Out of 20 students, 17 achieved more than 70% marks with distinctions.
+  Humanities Topper: Jatin Saini (88%).  
+  Commerce Topper: Yuvraj Rana (88%).
+Class $10^{th}$ Highlights: Out of 35 students, 33 achieved a first division.
+  Toppers: Ayushi Negi and Garvit (90%).
+
+2. Sports Achievements
+Shooting: * District Level: Students won 3 gold, 2 silver, and 1 bronze medal.
+  State Level: Master Jatin Kaushal and Master Uday Pratap won bronze medals.
+Baseball: The school team participated in the 3rd UPM International Baseball 
+Championship in Malaysia (July 2019).
+Kabaddi
+  Hosted the 18th CBSE Cluster; the school won the trophy in the Under-19 category.
+  Hosted Kabaddi Nationals; achieved 3rd position in the Under-19 category.
+
+3. Infrastructure & Staff Development
+Facility Upgrades: Improvements were made to the computer lab, science labs 
+(Physics, Chemistry, Bio), and the library.
+
+Specialized Sports Facilities: The school now includes an archery court and a 
+shooting range.
+
+Digital Integration: All classrooms have been converted into digitally smart classes 
+through the "smart class project" and the introduction of "Extra marks".
+
+Professional Development: Teachers and the Principal regularly attend workshops and 
+training programs to stay updated on educational trends.
+
+4. Student Activities & Organization
+House System: Students are organized into four houses: Earth, Mars, Venus, and Neptune.
+
+
+Leadership: Each house is managed by House Masters, Captains, and Prefects who oversee daily activities and competitions.
+
+
+Holistic Growth: Regular inter-house co-curricular activities are held to develop students physically, morally, and socially
+
+5. Future Plans & Academic Support
+Target Goals: The school explicitly aims to reach the "No 1 slot" in academic rankings.
+
+Support Measures: To improve results further, the school has implemented:
+
+Extra coaching classes for board examinees.
+
+Regular weekly testing.
+
+Specialized counseling sessions for students

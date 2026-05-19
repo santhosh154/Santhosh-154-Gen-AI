@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Performance Analytics</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+header {
+    background: #0f172a;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 { margin: 0; }
+p { margin: 5px 0; }
+
+.container {
+    padding: 20px 40px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+.metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin: 0;
+    color: #64748b;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chart-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.chart-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.chart-card h3 {
+    margin-bottom: 10px;
+    color: #1e293b;
+}
+
+.chart-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #475569;
+    font-style: italic;
+}
+
+canvas {
+    max-height: 300px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Student Performance Analytics Report</h1>
+    <p>Data-driven insights from academic and extracurricular metrics</p>
+</header>
+
+<div class="container">
+
+<!-- Metrics -->
+<div class="section">
+    <h2>Key Metrics</h2>
+    <div class="metrics">
+        <div class="card"><h3>Avg CGPA</h3><p>7.2</p></div>
+        <div class="card"><h3>Max CGPA</h3><p>9.01</p></div>
+        <div class="card"><h3>Backlogs</h3><p>7.7%</p></div>
+        <div class="card"><h3>Top Rank</h3><p>11814</p></div>
+    </div>
+</div>
+
+<!-- Academic Performance -->
+<div class="section">
+    <h2>Academic Performance</h2>
+    <div class="chart-grid">
+
+        <div class="chart-card">
+            <h3>CGPA Distribution</h3>
+            <canvas id="cgpaChart"></canvas>
+            <p>Most students fall within the 7–8 CGPA range, indicating moderate overall performance.</p>
+        </div>
+
+        <div class="chart-card">
+            <h3>GPA Trend (Sem 1–6)</h3>
+            <canvas id="gpaTrend"></canvas>
+            <p>GPA shows a steady upward trend, reflecting gradual academic improvement over semesters.</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Ranking -->
+<div class="section">
+    <h2>Ranking Insights</h2>
+    <div class="chart-card">
+        <h3>CGPA vs Rank</h3>
+        <canvas id="rankChart"></canvas>
+        <p>Higher CGPA generally corresponds to better ranks, though the relationship is moderate.</p>
+    </div>
+</div>
+
+<!-- Background -->
+<div class="section">
+    <h2>Background Influence</h2>
+    <div class="chart-grid">
+
+        <div class="chart-card">
+            <h3>10th Marks vs CGPA</h3>
+            <canvas id="marks10"></canvas>
+            <p>Students with higher 10th marks tend to perform slightly better in college.</p>
+        </div>
+
+        <div class="chart-card">
+            <h3>12th Marks vs CGPA</h3>
+            <canvas id="marks12"></canvas>
+            <p>12th marks show a strong positive correlation with CGPA.</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Skills -->
+<div class="section">
+    <h2>Skill & Achievement Impact</h2>
+    <div class="chart-card">
+        <h3>Technical Projects vs CGPA</h3>
+        <canvas id="projectsChart"></canvas>
+        <p>Technical projects show minimal direct impact on CGPA but are important for skill development.</p>
+    </div>
+</div>
+
+<!-- Backlogs -->
+<div class="section">
+    <h2>Backlog Analysis</h2>
+    <div class="chart-card">
+        <h3>Backlog Impact on CGPA</h3>
+        <canvas id="backlogChart"></canvas>
+        <p>Students with backlogs have significantly lower CGPA on average.</p>
+    </div>
+</div>
+
+<!-- Branch -->
+<div class="section">
+    <h2>Branch-wise Performance</h2>
+    <div class="chart-card">
+        <h3>Average CGPA by Branch</h3>
+        <canvas id="branchChart"></canvas>
+        <p>CSE students slightly outperform other branches, while core branches show more variation.</p>
+    </div>
+</div>
+
+</div>
+
+<script>
+
+// Charts
+new Chart(cgpaChart, {
+    type: 'bar',
+    data: {
+        labels: ['6-7','7-8','8-9'],
+        datasets: [{ data: [40,120,60] }]
+    }
+});
+
+new Chart(gpaTrend, {
+    type: 'line',
+    data: {
+        labels: ['S1','S2','S3','S4','S5','S6'],
+        datasets: [{ data: [6.8,7,7.1,7.2,7.3,7.4] }]
+    }
+});
+
+new Chart(rankChart, {
+    type: 'scatter',
+    data: {
+        datasets: [{
+            data: [{x:6.5,y:50000},{x:7.5,y:30000},{x:8.5,y:15000}]
+        }]
+    }
+});
+
+new Chart(marks10, {
+    type: 'scatter',
+    data: {
+        datasets: [{
+            data: [{x:70,y:6.5},{x:85,y:7.5},{x:95,y:8.5}]
+        }]
+    }
+});
+
+new Chart(marks12, {
+    type: 'scatter',
+    data: {
+        datasets: [{
+            data: [{x:65,y:6.3},{x:80,y:7.4},{x:95,y:8.7}]
+        }]
+    }
+});
+
+new Chart(projectsChart, {
+    type: 'bar',
+    data: {
+        labels: ['0','1-2','3+'],
+        datasets: [{ data: [7.0,7.2,7.3] }]
+    }
+});
+
+new Chart(backlogChart, {
+    type: 'bar',
+    data: {
+        labels: ['No Backlog','Backlog'],
+        datasets: [{ data: [7.4,6.5] }]
+    }
+});
+
+new Chart(branchChart, {
+    type: 'bar',
+    data: {
+        labels: ['CSE','ECE','MECH','CIVIL'],
+        datasets: [{ data: [7.5,7.2,6.9,6.8] }]
+    }
+});
+
+</script>
+
+</body>
+</html>

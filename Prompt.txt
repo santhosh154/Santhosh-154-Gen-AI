@@ -1,0 +1,50 @@
+Act as an expert educational data analyst and front-end developer.
+
+You are given a student dataset containing academic, demographic, and skill-related attributes.
+
+Your task is to:
+
+1. Analyze the dataset and extract meaningful insights such as:
+
+   * CGPA distribution
+   * GPA trends across semesters
+   * Rank vs CGPA relationship
+   * Impact of 10th and 12th marks
+   * Effect of technical projects
+   * Backlog impact
+   * Branch-wise performance
+
+2. Design a professional analytics dashboard.
+
+3. Generate a clean and modern HTML page using:
+
+   * Semantic structure
+   * CSS styling for a dashboard layout
+   * Chart.js for visualizations
+
+4. Include the following sections:
+
+   * Header (title + subtitle)
+   * Key Metrics (cards)
+   * Academic Performance
+   * Ranking Insights
+   * Background Analysis
+   * Skill & Achievement Impact
+   * Backlog Analysis
+   * Branch-wise Comparison
+
+5. For EACH chart:
+
+   * Add a clear heading above it
+   * Add a one-line interpretation below it
+
+6. Ensure:
+
+   * Professional design (card layout, spacing, shadows)
+   * Minimal and clean UI
+   * Charts are embedded using  and Chart.js
+
+7. Output ONLY the complete HTML code.
+
+Dataset:
+student performance.csv

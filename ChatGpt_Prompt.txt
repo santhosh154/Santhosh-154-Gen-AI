@@ -1,0 +1,138 @@
+Prompt:
+Act as an educational data analyst.
+Analyze the given School Annual Report and extract the most important points.
+Include academic performance, achievements, events, infrastructure developments, student activities, and future plans.
+Present the output in clear bullet points.
+
+ChatGpt result:
+Here is a clear, structured analysis of the School Annual Report with key insights extracted:
+
+---
+
+# 📊 **School Annual Report Analysis – Key Points**
+
+## 🎓 Academic Performance
+
+* Achieved **100% pass result** in both Class 10 and Class 12 CBSE Board Examinations. 
+* **Class 12:**
+
+  * 20 students appeared; all secured first division.
+  * 17 students scored above 70%.
+  * Toppers:
+
+    * Humanities: 88%
+    * Commerce: 88%
+* **Class 10:**
+
+  * 35 students appeared; all passed.
+  * 33 students secured first division.
+  * Top score: 90%. 
+* Measures taken for improvement:
+
+  * Extra coaching classes
+  * Weekly tests
+  * Counseling sessions
+* Strong emphasis on academic excellence supported by teachers, parents, and management.
+
+---
+
+## 🏆 Achievements & Recognition
+
+* Students won **multiple medals (Gold, Silver, Bronze)** in district and state-level shooting competitions. 
+* Participation in **International Baseball Championship (Malaysia 2019)**. 
+* Hosted:
+
+  * **18th CBSE Cluster Kabaddi Event**
+  * **Kabaddi Nationals**
+* Achievements:
+
+  * 1st place in CBSE Cluster (Under-19 Kabaddi)
+  * 3rd place in National Kabaddi (Under-19)
+
+---
+
+## ⚽ Sports & Physical Development
+
+* Strong focus on **sportsmanship and physical fitness**.
+* Participation in district, state, national, and international competitions.
+* Facilities include:
+
+  * Shooting range
+  * Archery court
+* Encouragement of competitive spirit and discipline.
+
+---
+
+## 🎭 Student Activities & Co-Curricular Development
+
+* Regular **Inter-House competitions** to promote teamwork and talent.
+* Four houses: Earth, Mars, Venus, Neptune.
+* Activities aimed at:
+
+  * Physical development
+  * Social and moral growth
+  * Skill enhancement
+* Balanced approach: academics + extracurriculars.
+
+---
+
+## 👩‍🏫 Staff Development
+
+* Teachers are:
+
+  * Well-trained and experienced
+  * Regularly attending **workshops and training programs**
+* Continuous professional development to stay updated in education.
+
+---
+
+## 🏫 Infrastructure Development
+
+* Significant upgrades in facilities:
+
+  * Computer lab (with internet)
+  * Physics, Chemistry, Biology labs
+  * Fully equipped library
+* Introduction of:
+
+  * **Smart classrooms (digital learning)**
+  * Additional evaluation system (extra marks)
+* Modern infrastructure supporting holistic learning.
+
+---
+
+## 🌱 School Environment & Vision
+
+* Focus on **holistic development** of students (academic + personality growth).
+* Encouragement of:
+
+  * Creativity
+  * Independent thinking
+  * Leadership and discipline
+* Strong collaboration between:
+
+  * Teachers
+  * Parents
+  * Management
+
+---
+
+## 🔮 Future Plans & Goals
+
+* Aim to achieve **No. 1 position in academics**.
+* Continued efforts in:
+
+  * Academic excellence
+  * Infrastructure enhancement
+  * Student development programs
+* Commitment to shaping **well-balanced, confident individuals**.
+
+---
+
+## 🧾 Overall Summary
+
+* The school demonstrates **consistent growth and strong performance** across academics, sports, and co-curricular domains.
+* Balanced focus on **modern infrastructure, teacher development, and student excellence**.
+* Clear vision for continuous improvement and higher achievements.
+
+---
